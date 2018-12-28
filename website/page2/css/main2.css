@@ -1,0 +1,24 @@
+
+body {
+    background-image: url('../../img/Case-Closed-This-Is-the-Healthiest-Coffee-You-Can-Drink.jpg');
+    background-repeat: no-repeat;
+    background-color: #ccb8b7;
+}
+
+h1 {
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 120px;
+    padding-left: 30px;
+    font-size: 54px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#like-button {
+    padding: 10px;
+    background-color: #d147a3;
+    color: #3b2b2b;
+}
