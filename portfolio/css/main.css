@@ -1,0 +1,175 @@
+/**** BASE STYLES ****/
+
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;  
+    font-size: 24px;
+}
+
+#header {
+    height: 800px;
+}
+
+#about {
+    height: 1250px;
+}
+
+#work {
+    height: 1000px;
+}
+
+#contact {
+    height: 700px;
+}
+
+.text-center, .third-width {
+    text-align: center;
+}
+
+/**** COLOURS ****/
+
+/*boje u njihovom primeru   i u mom 
+    ff654a - #a2116d;
+    313131 - #5c0a3e
+    ffffff - #d3d3d3
+    postoje variables! za css
+*/
+
+#header, #work {
+    background-color: #d3d3d3;
+    color: #5b0b3c;
+}
+
+#about, #contact {
+    background-color: #a2116d;
+    color: #d3d3d3;
+}
+
+/**** BASE HEADLINES ****/
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;   
+    margin-bottom: 110px;
+    margin-top: 170px;
+}
+
+/**** GRID ****/
+
+.full-width {
+    border: 1px solid #a2116d; /* doesn't look good without this border */    
+    margin: 0 auto;    
+  /*  padding-left: 100px; */
+    width: 1200px;
+
+}
+
+.half-width {  
+    float: left;
+    height: 150px;
+    width: 600px;
+}
+
+.third-width {
+    float: left; 
+    width: 400px;      
+}
+
+/**** HEADER ****/
+
+#navig {
+    height: 70px;    
+}
+
+#headd, #navig {
+    border-color: #d3d3d3;
+    /* doesn't look good without this border */
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;      
+    margin: 0 10px;   
+}
+
+nav ul li a {
+    color: #5b0b3c;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#header-name {
+    color: #d0168c;
+}
+
+#header-p {
+    font-size: 48px;
+}
+
+/**** ABOUT ****/
+
+#img-masha {
+      
+    width: 300px;
+ /*   border: 5px solid #d3d3d3;*/
+} 
+
+#about-p {    
+    margin: auto;
+    text-align: center;
+    width: 600px;
+}
+
+/**** WORK ****/ 
+
+#work-container {
+    border-color: #d3d3d3;
+} 
+
+#work h2 {
+    margin-bottom: 110px;
+}
+
+#work img {
+    width: 350px;   
+}
+
+/**** CONTACT ****/
+
+#cont-container-upper {
+    height: 500px;
+}
+
+#contact a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+#ic-g {
+    height: 40px;
+}
+
+#ic-fb {
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+
+#bott-container {
+    height: 140px;
+}
+
+#copyr {    
+    font-size: 18px;
+    margin-top: 110px;
+    text-align: center;
+}
