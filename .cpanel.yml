@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/masahxco/public_html/
+    - /home/masahxco/repositories/101-skillcr-plus-mine index.html $DEPLOYPATH
+    - /home/masahxco/repositories/101-skillcr-plus-mine -R css $DEPLOYPATH
+    - /home/masahxco/repositories/101-skillcr-plus-mine -R img $DEPLOYPATH
+    - /home/masahxco/repositories/101-skillcr-plus-mine -R portfolio $DEPLOYPATH
+    - /home/masahxco/repositories/101-skillcr-plus-mine -R rogue $DEPLOYPATH
+    - /home/masahxco/repositories/101-skillcr-plus-mine -R website $DEPLOYPATH
